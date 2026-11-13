@@ -10,7 +10,7 @@ test("This is my API testing", async({request})=>{
 
     expect(responseBody.data.id).toBe(2);
     expect(responseBody.data.first_name).toBe('Janet');
-    expect(responseBody.data.support.sponsored_by).toBe('Clerk');
+    expect(responseBody.support.sponsored_by).toBe('Clerk');
     
 
 });
